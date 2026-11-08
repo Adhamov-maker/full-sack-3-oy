@@ -1,0 +1,517 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  padding: 24px;
+  font-family: 'Poppins',sans-serif;
+  background-color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+img:hover{
+    background-color: transparent;
+}
+.container{
+    width: 100%;
+    max-width: 968px;
+    margin: 0 auto;
+}
+.navbar{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links-header{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+   
+}
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #282525;
+}
+.link:hover{
+    color:#DC3845;
+}
+.nav-menu-btn{
+    cursor: pointer;
+    background-color: transparent;
+    display: none;
+}
+.nav-dark-btn{
+    cursor: pointer;
+    background-color: transparent;
+}
+.nav-light-btn{
+    display: none;
+}
+
+.hero {
+    padding: 64px 0 56px 0;
+}
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+.hero-img {
+    max-width: 500px;
+}
+/*.hero-div {
+}*/
+.title {
+    color: #282525;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+.hero-text {
+    color: #5D5656;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 48px;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 204px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #DC3845;
+    border-radius: 64px;
+}
+.first-section{
+    padding: 72px 0 32 0;
+}
+.first-sectin-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.h3-title{
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+}
+.first-section-cards{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    gap: 28px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-section-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width:142px;
+    gap: 4px;
+}
+.gift-name{
+    color: #282525;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 12px;
+}
+.giftaboute{
+    color: #5D5656;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+.second-section{
+    padding: 52px 0;
+}
+.second-section-div{
+    display: flex;
+    gap: 88px;
+    align-items: center;
+    padding: 0 30px;
+}
+/*.second-section-indiv{
+
+}*/
+.indiv-title{
+    color: #282525;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.second-div-img{
+    max-width: 450px;
+    width: 100%;
+}
+.second-btn{
+    background-color: #DC3845;
+    border-radius: 64px;
+    max-width: 215px;
+    width: 100%;
+    padding: 16px 0;
+    color: #FFFFFF;
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-section{
+    padding: 72px 0 32px 0;
+}
+.Share-A-Gift{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+}
+.third-gifts{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third-gift{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/bx-heart.svg.svg");
+    background-repeat: no-repeat;
+    background-position:160px 20px ;
+    height: 247px;
+    min-width: 200px;
+    width: 100%;
+    border-radius: 12px;
+    border:1px solid rgba(48, 29, 30, 0.1);
+}
+.tashqi{
+    padding:20px 24px;
+     background-image: url("../img/Gift\ content.svg"); 
+     background-repeat: no-repeat;
+    background-size: cover;
+} 
+.third-top-gift{
+   margin:8px auto 0 auto;
+}
+.gfift-prise{
+    color: #282525;
+    font-weight: 600px;
+    font-size: 20px;
+}
+.prise-text{
+    color: #5D5656;
+    font-weight: 500px;
+    font-size: 14px;
+
+}
+.fourth-section {
+    padding: 72px 0 32px 0;
+}
+.New-Gifts {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;align-items: center;
+}
+.new-gifts {
+    width: 100%;
+    max-width: 818px;
+    align-items: center;
+    display: flex;
+    gap: 64px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+}
+.new-gift {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 230px;
+    height: 278px;
+    padding: 21px 0;
+    border:1px solid rgba(196, 196, 196, 1);
+    border-radius: 12px;
+    background-image: url("../img/Ellipse\ 2\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.new-giving{
+    margin-top: 34px;
+    color: rgba(40, 37, 37, 1);
+    font-weight: 600;
+    font-size: 20px;
+}
+.new-givingabout{
+    color: rgba(93, 86, 86, 1);
+    font-weight:500;
+    font-size: 15px;
+    text-align: center;
+}
+.yurak-giving{
+    width: 36px;
+    height: 36px;
+    text-align: end;
+    border-radius: 4px;
+    border-bottom-right-radius: 12px;
+    background-color: rgba(220, 56, 69, 1);
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+.giving-button-img{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: end;
+
+}
+.end-section{
+    padding: 96px 0 72px 0;
+}
+.end-section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+    flex-wrap: wrap;
+    background-color: rgba(220, 56, 69, 1);
+    border-radius: 32px;
+    padding: 50px ;
+}
+.send-good {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.send-title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 36px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    width:100%;
+    width: 264px;
+    padding: 18px 0;
+    color: rgba(145, 136, 137, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 64px;
+    margin-bottom: 13px;
+    border: none;
+    padding: 18px 24px;
+}
+placeholder{
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(145, 136, 137, 1);
+}
+.send-good-btn {
+color: rgba(255, 255, 255, 1);
+background-color: rgba(40, 37, 37, 1);
+padding: 16px;
+max-width: 175px;
+border-radius: 64px;
+}
+footer{
+    padding: 72px 0 0px 0;
+    background-image: url("../img/qorbobo-archasi.jpg")url("../img/qorbobo\ archasi2.jpg");
+    background-position:168px 211px ,129px;
+    background-repeat: no-repeat;
+}
+.footer-wrapper{
+    display: flex;
+    gap: 146px;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 112px;
+}
+.footer-link-text{
+    color: rgba(93, 86, 86, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-link-title{
+    color: rgba(40, 37, 37, 1);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+.final{
+    color: rgba(145, 136, 137, 1);
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+.container-footer{
+    margin: 0 auto;
+    max-width: 1202px;
+    width: 100%;
+    padding: 0 10px;
+    background-image: url("../img/qorbobo-archasi.jpg"),url("../img/qorbobo\ archasi2.jpg");
+    background-position:119px 139px ,right center;
+    background-repeat: no-repeat;
+}
+
+.menu{
+display: none;
+}
+
+
+
+
+
+
+@media (max-width:770px){
+    .hero-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .hero-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .title{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .hero-text{
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+    .hero-img {
+    max-width: 320px;
+    margin-bottom: 24.12px;
+    }
+    .navbar{
+        padding: 16px 0;
+        gap: 100px;
+    }
+    .hero{
+        padding: 22px 0 32px 0;
+    }
+    .nav-menu-btn{
+    display:block;
+    }
+    .link{
+        display: none;
+    }
+    .links-header{
+        gap:16px;
+    }
+    .first-section{
+        padding: 48px 0 32px 0;
+    }
+    .first-sectin-div{
+        gap: 48px;
+    }
+    .h3-title{
+        font-size: 20px;
+    }
+    .gift-name{
+        font-size: 16px;
+    }
+    .giftaboute{
+        font-size: 13px;
+    }
+    .second-section-div{
+        flex-direction: column;
+        gap: 24px;
+        justify-content: center;
+    }
+    .second-section-indiv{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .second-btn{
+        margin-top: 0;
+    }
+    .second-section{
+        padding: 48px 0 32px 0;
+
+    }
+    .second-div-img{
+        width: 100%;
+        max-width: 450px;
+    }
+    .third-gifts{   
+        justify-content: center;
+        align-items: center;
+    }
+    .tashqi{
+        margin: 0 -15px;
+    }
+    .third-gift{
+        max-width: 144px;
+        box-shadow: 5px 5px 7px #0000001f;  
+    }
+    .links{
+        margin-bottom: 60px;
+    }
+    .papaer{
+        max-width: 300px;
+    }
+    
+}
+
+
+
+
+@media(max-Width:390px){
+   .footer-wrapper{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .links{
+        margin-bottom: 0;
+    }
+    .final{
+        margin-top: 80px;
+    }
+    .container-footer{
+        background-position:119px 139px ,right bottom;
+    }
+}
